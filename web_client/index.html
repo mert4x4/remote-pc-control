@@ -2,12 +2,18 @@
 <html>
 <title>remote control hub</title>
 <link rel="icon" href="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/1b/1b9f717d94ea2f0acef9b01ad20afd0cbd589e13_full.jpg">
-
+<link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 	<div>
-		<input type="range" min="0" max="100" value="100" id="VolumeLevel">
-		<button type="button" id="sendVolumeValue">Send Volume Value</button>
-		<h1 id="label_voiceLevel"> sadsa</h1>
+		<input class="slider" type="range" min="0" max="100" value="100" id="VolumeLevel">
+		<button class="OrangeButton" type="button" id="sendVolumeValue">Send Volume Value</button>
+		<h1 id="label_voiceLevel"> 0</h1>
+	</div>
+	<div >		
+		<button class="RedButton" type="button" id="button_mute">MUTE SPEAKERS</button>
+		<button class="RedButton" type="button" id="button_nextTrack">NEXT</button>
+		<button class="RedButton" type="button" id="button_previousTrack">PREVIOUS</button>
+		<button class="RedButton" type="button" id="button_pausePlay">PAUSE/PLAY</button>
 	</div>
 	<style>
 </style>
